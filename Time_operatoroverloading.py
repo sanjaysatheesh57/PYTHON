@@ -15,3 +15,6 @@ class Time:
 t1 = Time(2, 45, 50)
 t2 = Time(3, 20, 30)
 t3 = t1 + t2
+print("Time 1 =", end=" "); t1.show()
+print("Time 2 =", end=" "); t2.show()
+print("Sum =", end=" ");    t3.show()
